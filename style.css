@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Museo 700 Regular";
+  src: url("fonts/museo700.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2c3641 url(images/bg.png);
+  color: #fff;
+  font-family: "Museo 700 Regular", helvetica, arial, sans-serif;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+}
+
+header {
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#avatar {
+  float: left;
+  margin: 5px;
+}
+
+#page {
+  left: 50%;
+  height: 300px;
+  margin: -150px 0 0 -360px;
+  position: absolute;
+  top: 50%;
+  width: 720px;
+}
+
+.summary {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.additional, .additional * {
+  color: #8c9198;
+  font-size: 18px;
+}
+
+.summary, .additional {
+  text-shadow: 1px 1px #111;
+}
+
+a#varagesale {
+  text-decoration: none;
+}
+
+.additional {
+  margin: 10px 0;
+}
+
+strong {
+  color: #fff000;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin-right: 10px;
+}
+
+li a {
+  background: transparent no-repeat;
+  display: block;
+  height: 16px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 16px;
+}
+
+.rubygems a { background-image: url(images/rubygems.png); }
+.email a { background-image: url(images/email.png); }
+.gtalk a { background-image: url(images/gtalk.png); }
+.twitter a { background-image: url(images/twitter.png); }
+.medium a { background-image: url(images/medium.png); }
+.youtube a { background-image: url(images/youtube.png); }
+.github a { background-image: url(images/github.png); }
+.skype a { background-image: url(images/skype.png); }
+.slideshare a { background-image: url(images/slideshare.png); }
+.beonthenet a { background-image: url(images/beonthenet.png); }
