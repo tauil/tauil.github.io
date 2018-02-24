@@ -29,27 +29,42 @@ h1 {
 
 #avatar {
   float: left;
-  margin: 5px;
+  margin: 0 .3em 0 0;
+  border-radius: .1em;
 }
 
 #page {
-  left: 50%;
-  height: 300px;
-  margin: -150px 0 0 -360px;
+  left: 25vw;
   position: absolute;
-  top: 50%;
-  width: 720px;
+  top: 30vh;
+  width: 47em;
 }
 
 .summary {
+  background: rgba(255,255,255,0.1);
   font-size: 40px;
   letter-spacing: -1px;
   line-height: 1;
+  padding: .4em;
+  border: 1px solid rgba(255,255,255,0.1);
+  overflow: auto;
+  display: flex;
+  margin: 0 0 .3em;
+  border-radius: .1em;
 }
 
 .additional, .additional * {
-  color: #8c9198;
+  color: #989898;
   font-size: 18px;
+  line-height: 1.2em;
+}
+
+.additional {
+  margin: .5em 0 0;
+}
+
+.additional a {
+  text-decoration: underline;
 }
 
 .summary, .additional {
@@ -60,10 +75,6 @@ a#varagesale {
   text-decoration: none;
 }
 
-.additional {
-  margin: 10px 0;
-}
-
 strong {
   color: #fff000;
   font-weight: normal;
@@ -71,31 +82,21 @@ strong {
 
 ul {
   list-style: none;
-  margin-top: 20px;
+  margin: 0 auto;
   overflow: hidden;
+  width: 14em;
+  font-size: 1.4em;
 }
 
 li {
   float: left;
-  margin-right: 10px;
+  margin-right: .7em;
 }
 
 li a {
-  background: transparent no-repeat;
-  display: block;
-  height: 16px;
-  overflow: hidden;
-  text-indent: -9999px;
-  width: 16px;
+  color: #ccc;
 }
 
-.rubygems a { background-image: url(images/rubygems.png); }
-.email a { background-image: url(images/email.png); }
-.gtalk a { background-image: url(images/gtalk.png); }
-.twitter a { background-image: url(images/twitter.png); }
-.medium a { background-image: url(images/medium.png); }
-.youtube a { background-image: url(images/youtube.png); }
-.github a { background-image: url(images/github.png); }
-.skype a { background-image: url(images/skype.png); }
-.slideshare a { background-image: url(images/slideshare.png); }
-.beonthenet a { background-image: url(images/beonthenet.png); }
+li a:visited {
+  color: #ccc;
+}
